@@ -1,0 +1,14 @@
+@media (min-width: 400px) {
+	.web-contenaire {
+		padding-left: 88px;
+		padding-right: 88px;
+	}
+
+	header nav ul {
+		justify-content: flex-start;
+	}
+
+	header nav ul li {
+		margin-left: 24px;
+	}
+}

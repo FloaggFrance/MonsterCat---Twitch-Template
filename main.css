@@ -1,0 +1,119 @@
+@import url(https://raw.githack.com/FloaggFrance/LiveReaload-CSS-Minimum-Codes/main/min.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+:root {
+	--black: #191919;
+	--black0:#131313;
+
+	--white: #fff;
+
+	--colorOne: #9146ff;
+}
+body {
+	font-size: 17px;
+	font-family: "Roboto", sans-serif;
+
+	background: var(--black);
+	color: var(--white);
+}
+
+.web-contenaire {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.stream-contenaire {
+	margin-top: 400px;
+	padding-top: 24px;
+	padding-bottom: 12px;
+}
+
+iframe {
+	border:none;
+	height: 100%;
+	width: 100%;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+
+	min-height: 75px;
+
+	background: var(--black0);
+}
+
+nav .flex-ul {
+	width: 100%;
+}
+
+header nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav ul li {
+	margin-left: 6px;
+
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+header nav ul li:nth-child(1) { margin-left: 0; }
+
+header nav ul li img {
+	width: 40px;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: inherit;
+
+	display: inline-block;
+}
+
+header nav ul li a:hover {
+	color: var(--colorOne);
+}
+
+.banner-website {
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: -1;
+
+	background: black;
+	background-image: url(https://zupimages.net/up/22/51/srxt.jpg);
+	background-size: cover;
+	background-position: center;
+
+	height: 700px;
+}
+
+.banner-website .copy-button {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+
+	text-decoration: none;
+	color: #fff;
+
+	background: rgba(0, 0, 0, 0.6);
+
+	padding: 6px 12px;
+	border-radius: 6px;
+}
+
+#twitch-embed {
+	display: none;
+	height: 100%;
+}
+
+.web-player-contenaire {
+	background-image: url(https://zupimages.net/up/22/51/ndpd.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 480px;
+}
